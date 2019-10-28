@@ -1,0 +1,12 @@
+{
+  "name": "Sorting",
+  "version": "1.0.0",
+  "description": "A sample sorting app in TypeScript.",
+  "main": "src/index.ts",
+  "author": "CheezItMan <chris@adadevelopersacademy.org>",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^5.0.0",
+    "nodemon": "^1.19.4"
+  }
+}
