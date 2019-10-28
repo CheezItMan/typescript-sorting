@@ -1,29 +1,4 @@
-
-class Sorter {
-  collection: number[];
-
-  constructor(list: number[]) {
-    this.collection = list;
-  }
-
-  sort(): void {
-    let i = 0;
-    const { length } = this.collection;
-    const { collection } = this;
-    while (i < length ) {
-      let j = 0;
-      while (j < length - i - 1) {
-        if (collection[j] > collection[j + 1]) {
-          let temp = collection[j];
-          collection[j] = collection[j + 1];
-          collection[j+1] = temp;
-        }
-        j++
-      }
-      i++;
-    }
-  }
-}
+import { Sorter } from 'Sorter';
 
 
 const sorter = new Sorter([10, 15, -5, 6, 20, 1]);

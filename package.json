@@ -1,5 +1,5 @@
 {
-  "name": "Sorting",
+  "name": "sorting",
   "version": "1.0.0",
   "description": "A sample sorting app in TypeScript.",
   "main": "src/index.ts",
